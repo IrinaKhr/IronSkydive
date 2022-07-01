@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
+
 <body>
   <nav>
     <div class="topnav">
@@ -15,147 +17,164 @@
       <ul><a href="#schedule">Schedule </ul></a>
     </div>
   </nav>
-  <h1>
-    <img alt="IronSkydiveLogo" src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" />
+ <section class="header"> 
+   <h1>
+    <img alt="IronSkydiveLogo"
+      src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" />
     IronSkydive
   </h1>
   <h2>Let the trip begin</h2>
-  <aside><i>"The best experience of our lifes"</i></aside>
-  <aside>
+  <aside class="quote"><i>"The best experience of our lifes"</i></aside>
+  <aside class="quote">
     <p>Ariel Quiñones&Gonzalo Manrique, Ironhack Founders</p>
   </aside>
-  <article>
-    <h3>Hello!</h3>
-    Welcome to Iron Skydive, the best adventure that you will ever have
-  </article>
-  <nav>
-    <p><a href="#learn">Learn More</a></p>
-  </nav>
-  
-  <article>
-    <h3>About us</h3>
-    We like a lot programming websites, but we also like to practice sports
-  </article>
-  <nav>
-    <p><a href="#video">Watch a video</a></p>
-  </nav>
-  <article>
-    <h3>Wanna join?</h3>
-    Join our fitness program to be in good shape while learning
-  </article>
-  <nav>
-    <p><a href="#register">Register</a></p>
-  </nav>
-  <h3>How do we structure the day?</h3>
-  <div>
+  </section>
+  <section id="generalinformation" class="darkbackground">
     <article>
-      <h4><img width="100" alt="Training"
-          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png" </img>
-        <p>1.Training</p>
-      </h4>
-      <p>We teach all the necessary things to jump from a plane without a problem</p>
+      <h3>Hello!</h3>
+     <p class="text">Welcome to Iron Skydive, the best adventure that you will ever have</p>
     </article>
+    <nav>
+      <p class="link-btn"><a href="#learn">Learn More</a></p>
+    </nav>
+
     <article>
-      <h4><img width="100" alt="Ready"
-          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png"> </img>
-        <p>2. Get ready </p>
-      </h4>
-      <p>You are already prepared, you just need a suit and a parachute. All sizes available.</p>
+      <h3>About us</h3>
+      <p class="text">We like a lot programming websites, but we also like to practice sports</p>
     </article>
+    <nav>
+      <p class="link-btn"><a href="#video">Watch a video</a></p>
+    </nav>
     <article>
-      <h4><img width="100" alt="Fly" src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png">
+      <h3>Wanna join?</h3>
+     <p class="text">Join our fitness program to be in good shape while learning</p>
+    </article>
+    <nav>
+      <p class="link-btn"><a href="#register">Register</a></p>
+    </nav>
+  </section>
+  <section id="structure">
+    <h3>How do we structure the day?</h3>
+    <div>
+      <article class="servicebox">
+        <h4><img alt="Training"
+            src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png"> </img>
+          <p>1.Training</p>
+        </h4>
+        <p>We teach all the necessary things to jump from a plane without a problem</p>
+      </article>
+      <article class="servicebox">
+        <h4><img alt="Ready"
+            src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png"> </img>
+          <p>2. Get ready </p>
+        </h4>
+        <p class="servicebox">You are already prepared, you just need a suit and a parachute. All sizes available.</p>
+      </article>
+      <article class="servicebox">
+        <h4><img alt="Fly"
+            src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png">
           </img>
-        <p>3.Fly</p>
-      </h4>
-      <p>You are ready and the plane is waiting for us in the hanger. Let's fly!</p>
-    </article>
-    <article>
-      <h4><img width="100" alt="Jump" src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png">
+          <p>3.Fly</p>
+        </h4>
+        <p class="servicebox">You are ready and the plane is waiting for us in the hanger. Let's fly!</p>
+      </article>
+      <article class="servicebox">
+        <h4><img alt="Jump"
+            src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png">
           </img>
-        <p>4. Jump!</p>
-      </h4>
-      <p>We teach all the necessary things to jump from a plane without a problem</p>
-    </article>
-  </div>
-  <h3>Team</h3>
-  <p> Our team collectively has 75 years of experience.</p>
-  <p>Odds are, when you jump off the plane with these professionals, you won´t go split.</p>
-  <hr>
-  <div>
-    <article>
-      <p> <b>Harold Rothstein</b> </p> <img width="300" alt="Harold"
-        src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg"> </img>
-    </article>
+          <p>4. Jump!</p>
+        </h4>
+        <p class="servicebox">We teach all the necessary things to jump from a plane without a problem</p>
+      </article>
+  </section>
+  <section class="darkbackground" id="team">
+    </div>
+    <h3>Team</h3>
+    <p class="sectiontext">Our team collectively has 75 years of experience.</p>
+    <p class="sectiontext">Odds are, when you jump off the plane with these professionals, you won´t go split.</p>
     <hr>
-    <article>
-      <p><b>Susan Phillips</b> </p><img width="300" alt="Susan"
-        src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg"> </img>
-    </article>
+    <div>
+      <article>
+        <h4 class="member"> Harold Rothstein</h4> <img alt="Harold"
+          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg">
+        </img>
+      </article>
+      <hr>
+      <article>
+        <h4 class="member">Susan Phillips</h4><img alt="Susan"
+          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg">
+        </img>
+      </article>
+      <hr>
+      <article>
+        <h4 class="member">Taylor Roberts</h4><img alt="Taylor"
+          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg">
+        </img>
+      </article>
+    </div>
+  </section>
+  <section id="schedule">
     <hr>
-    <article>
-      <p><b>Taylor Roberts</b> </p><img width="300" alt="Taylor"
-        src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg"> </img>
-    </article>
-  </div>
-  <hr>
-  <h3>Schedule</h3>
-  <table>
-    <thead>
-      <th>Time</th>
-      <th>Monday</th>
-      <th>Tuesday</th>
-      <th>Wednesday</th>
-      <th>Thursday</th>
-      <th>Friday</th>
-      <th>Saturday</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>9.00-11.00</td>
-        <td></td>
-        <td></td>
-        <td style="text-align: center">x</td>
-        <td></td>
-        <td style="text-align: center">x</td>
-        <td style="text-align: center">x</td>
-      </tr>
-      <tr>
-        <td>12.00-14.00</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td style="text-align: center">x</td>
-        <td style="text-align: center">x</td>
-      </tr>
-      <tr>
-        <td>15.00-17.00</td>
-        <td></td>
-        <td></td>
-        <td style="text-align: center">x</td>
-        <td style="text-align: center">x</td>
-        <td style="text-align: center">x</td>
-        <td style="text-align: center">x</td>
-      </tr>
-    </tbody>
-  </table>
-  
+    <h3>Schedule</h3>
+    <table>
+      <thead>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>9.00-11.00</td>
+          <td></td>
+          <td></td>
+          <td style="text-align: center">x</td>
+          <td></td>
+          <td style="text-align: center">x</td>
+          <td style="text-align: center">x</td>
+        </tr>
+        <tr>
+          <td>12.00-14.00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: center">x</td>
+          <td style="text-align: center">x</td>
+        </tr>
+        <tr>
+          <td>15.00-17.00</td>
+          <td></td>
+          <td></td>
+          <td style="text-align: center">x</td>
+          <td style="text-align: center">x</td>
+          <td style="text-align: center">x</td>
+          <td style="text-align: center">x</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
   <h3>Schedule a Time Slot</h3>
-  <section>
+  <footer class="darkbackground footer">
     <h5>Contact Information</h5>
     <address>IronSkydive <br> 33 Rue la Fayette <br>75090 Paris <br> France <br> + 33 0 619 193 088</address>
-  
-    <h5>Follow us</h5>
+
+    <h5>Follow us:</h5>
     <nav>
       <ul>
-        <a href="https://www.w3schools.com" target="_blank">Twitter
+        <a class="footer" href="https://www.w3schools.com" target="_blank">Twitter
       </ul></a>
       <ul>
-        <a href="https://www.w3schools.com" target="_blank">Facebook
+        <a class="footer" href="https://www.w3schools.com" target="_blank">Facebook
       </ul></a>
       <ul>
-        <a href="https://www.w3schools.com" target="_blank">Instagram
+        <a class="footer" href="https://www.w3schools.com" target="_blank">Instagram
       </ul></a>
-    </nav>
+    </nav> 
+</footer>
 </body>
+
 </html>
